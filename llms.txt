@@ -1,0 +1,20 @@
+# SuperHospitality
+
+> SuperHospitality is a WhatsApp-first AI concierge platform for hotels that turns guest requests into instant staff actions without app downloads, missed calls, or manual relay.
+
+This site is a compact product-marketing website for a hotel operations platform by SHUUL. It includes a landing page with the core value proposition, workflow, platform capabilities, deployment model, and beta call to action, plus a visual story page showing the operational problems the product solves.
+
+The intended audience includes hotel owners, operators, general managers, and hospitality teams evaluating AI-assisted guest communication and service operations.
+
+## Pages
+
+- [Home](https://superhospitality.in/): Main product overview, messaging, workflow explanation, platform capabilities, technology summary, deployment model, and contact CTA.
+- [Problem we solve](https://superhospitality.in/the-problem/): Scroll-driven narrative showing current hotel communication bottlenecks and how SuperHospitality resolves them.
+
+## Related
+
+- [SHUUL Technologies](https://shuul.io/): Parent company website.
+
+## Optional
+
+- [Sitemap](https://superhospitality.in/sitemap.xml): XML list of the public URLs on this site.
