@@ -10,6 +10,10 @@ The intended audience includes hotel owners, operators, general managers, and ho
 
 - [Home](https://superhospitality.in/): Main product overview, messaging, workflow explanation, platform capabilities, technology summary, deployment model, and contact CTA.
 - [Problem we solve](https://superhospitality.in/the-problem/): Scroll-driven narrative showing current hotel communication bottlenecks and how SuperHospitality resolves them.
+- [Privacy policy](https://superhospitality.in/privacy/): General privacy information for the SuperHospitality website and services.
+- [Staff privacy notice](https://superhospitality.in/privacy/staff/): Privacy details specific to staff-facing experiences.
+- [Guest privacy notice](https://superhospitality.in/privacy/guest/): Privacy information for guest-facing interactions and data handling.
+- [Website privacy notice](https://superhospitality.in/privacy/website/): Privacy details for website visitors and analytics-related processing.
 
 ## Related
 
