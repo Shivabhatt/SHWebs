@@ -48,34 +48,13 @@
         }
       }
     </script>
-    <link rel="stylesheet" crossorigin href="/assets/landing-doZtex9j.css">
+    <link rel="stylesheet" crossorigin href="/assets/landing-BX92CsZf.css">
   </head>
   <body>
     <div class="site-shell">
       <div class="site-noise" aria-hidden="true"></div>
 
-      <header class="site-header">
-        <div class="container nav-row">
-          <a class="brand-lockup" href="/" aria-label="SuperHospitality home">
-            <span class="brand-mark"><span style="color:#fff">Super</span><span class="brand-mark-teal">Hospitality</span></span>
-            <span class="brand-meta">A PRODUCT BY <span class="shuul-silver">SHUUL</span></span>
-          </a>
-
-          <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Toggle navigation" aria-expanded="false">
-            <span></span><span></span><span></span>
-          </button>
-
-          <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
-            <a href="#how-it-works" onclick="closeMobileNav()">How It Works</a>
-            <a href="#why" onclick="closeMobileNav()">Why SuperHospitality</a>
-            <a href="#platform" onclick="closeMobileNav()">Platform</a>
-            <a href="/the-problem/">Problem we solve</a>
-            <button class="button button-primary nav-cta" onclick="openModal(); closeMobileNav()">
-              Request Access
-            </button>
-          </nav>
-        </div>
-      </header>
+      <header class="site-header" data-shared-header></header>
 
       <main>
         <section class="hero-section">
@@ -91,7 +70,7 @@
 
               <div class="hero-actions">
                 <button class="button button-primary" onclick="openModal()">
-                  Request Access
+                  Get in touch
                 </button>
                 <a class="button button-secondary" href="/the-problem/">See the full story</a>
               </div>
@@ -303,7 +282,7 @@
 
             <div class="beta-actions">
               <button class="button button-primary" onclick="openModal()">
-                Request Access
+                Get in touch
               </button>
               <a class="button button-secondary" href="/the-problem/">See the full story</a>
             </div>
@@ -311,78 +290,11 @@
         </section>
       </main>
 
-      <footer class="site-footer">
-        <div class="container footer-inner">
-          <div class="footer-brand">
-            <a class="brand-lockup" href="/" aria-label="SuperHospitality home">
-              <span class="brand-mark"><span style="color:#fff">Super</span><span class="brand-mark-teal">Hospitality</span></span>
-              <span class="brand-meta">A PRODUCT BY <span class="shuul-silver">SHUUL</span></span>
-            </a>
-            <p class="footer-brand-copy">AI-powered guest experience platform.<br>A product by <a href="https://shuul.io/" target="_blank" rel="noopener noreferrer"><span class="shuul-silver">SHUUL Technologies</span></a>.</p>
-          </div>
-          <nav class="footer-links" aria-label="Footer navigation">
-            <a href="#how-it-works">How It Works</a>
-            <a href="/the-problem/">Problem we solve</a>
-            <a href="/privacy/">Privacy</a>
-            <a href="/privacy/website/">Cookies</a>
-            <a href="#" onclick="openModal(); return false;">Request access</a>
-          </nav>
-        </div>
-      </footer>
-
-      <!-- Modal overlay -->
-      <div class="modal-backdrop" id="betaModal" onclick="closeModalBackdrop(event)">
-        <div class="modal-container">
-          <div class="modal-header">
-            <h3>Request Access</h3>
-            <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
-          </div>
-          <div class="modal-body">
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSfdbThYwUDFjeIFg12fHmLmKu2P0tFGH8-NVrhgmLbLXEl8vw/viewform?embedded=true"
-              width="100%"
-              height="100%"
-              frameborder="0"
-              marginheight="0"
-              marginwidth="0"
-            >Loading…</iframe>
-          </div>
-        </div>
-      </div>
+      <footer class="site-footer" data-shared-footer></footer>
     </div>
 
+    <script src="/shared/layout.js"></script>
     <script>
-      function openModal() {
-        document.getElementById('betaModal').classList.add('is-open');
-        document.body.style.overflow = 'hidden';
-      }
-      function closeModal() {
-        document.getElementById('betaModal').classList.remove('is-open');
-        document.body.style.overflow = '';
-      }
-      function closeModalBackdrop(e) {
-        if (e.target === e.currentTarget) closeModal();
-      }
-      document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') closeModal();
-      });
-
-      /* ── Mobile nav toggle ── */
-      function toggleMobileNav() {
-        var nav = document.getElementById('navLinks');
-        var btn = document.querySelector('.nav-hamburger');
-        var open = nav.classList.toggle('is-open');
-        btn.classList.toggle('is-open', open);
-        btn.setAttribute('aria-expanded', open);
-      }
-      function closeMobileNav() {
-        var nav = document.getElementById('navLinks');
-        var btn = document.querySelector('.nav-hamburger');
-        nav.classList.remove('is-open');
-        btn.classList.remove('is-open');
-        btn.setAttribute('aria-expanded', 'false');
-      }
-
       /* ── Auto-scrolling carousels ── */
       (function() {
         var tracks = document.querySelectorAll('.carousel-auto');

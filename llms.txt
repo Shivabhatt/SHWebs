@@ -1,24 +1,40 @@
 # SuperHospitality
 
-> SuperHospitality is a WhatsApp-first AI concierge platform for hotels that turns guest requests into instant staff actions without app downloads, missed calls, or manual relay.
+> SuperHospitality is a voice-first AI concierge platform for hotels. Guests send requests via WhatsApp or a custom web app using text, voice notes, or calls. The AI extracts intent, routes tasks to the right staff member, and closes the loop — no app downloads, no missed calls, no manual relay.
 
-This site is a compact product-marketing website for a hotel operations platform by SHUUL. It includes a landing page with the core value proposition, workflow, platform capabilities, deployment model, and beta call to action, plus a visual story page showing the operational problems the product solves.
+Built by SHUUL Technologies LLP (Pune, India). DPIIT Startup India recognized. Live deployment with a 170+ room luxury hotel property.
 
-The intended audience includes hotel owners, operators, general managers, and hospitality teams evaluating AI-assisted guest communication and service operations.
+## Product
+
+- **Guest interface**: WhatsApp and a custom web app — guests use what they already have
+- **AI engine**: Gemini AI, cloud speech-to-text, cloud translation, cloud compute
+- **Task routing**: Automatic department assignment based on intent, urgency, and context
+- **Staff app**: Published on Google Play Store — swipe Start, tap Complete
+- **Analytics**: Real-time turnaround times, SLA compliance, operational metrics for managers
+- **Languages**: 10+ Indian languages including dialects and accents
 
 ## Pages
 
-- [Home](https://superhospitality.in/): Main product overview, messaging, workflow explanation, platform capabilities, technology summary, deployment model, and contact CTA.
-- [Problem we solve](https://superhospitality.in/the-problem/): Scroll-driven narrative showing current hotel communication bottlenecks and how SuperHospitality resolves them.
-- [Privacy policy](https://superhospitality.in/privacy/): General privacy information for the SuperHospitality website and services.
-- [Staff privacy notice](https://superhospitality.in/privacy/staff/): Privacy details specific to staff-facing experiences.
-- [Guest privacy notice](https://superhospitality.in/privacy/guest/): Privacy information for guest-facing interactions and data handling.
-- [Website privacy notice](https://superhospitality.in/privacy/website/): Privacy details for website visitors and analytics-related processing.
+- [Home](https://superhospitality.in/): Product overview, workflow, platform capabilities, deployment model, and contact CTA
+- [About](https://superhospitality.in/about/): Company info, founder (Vinay Punera, LinkedIn-verifiable), DPIIT recognition with certificate, Razorpay Rize membership, live design partner details
+- [Product](https://superhospitality.in/product/): Live product showcase — YouTube demo video, 4-step visual flow, platform capabilities, analytics dashboard description, cloud infrastructure details
+- [Problem we solve](https://superhospitality.in/the-problem/): Scroll-driven narrative showing hotel communication bottlenecks and how SuperHospitality resolves them
+- [Privacy center](https://superhospitality.in/privacy/): Hub linking to all privacy policies
+- [Staff privacy](https://superhospitality.in/privacy/staff/): Privacy policy for the Staff Tasks Android app
+- [Guest privacy](https://superhospitality.in/privacy/guest/): Privacy policy for guest registration and AI concierge messaging
+- [Website privacy](https://superhospitality.in/privacy/website/): Cookie policy and Microsoft Clarity analytics disclosure
+
+## Company
+
+- **Entity**: SHUUL Technologies LLP (Limited Liability Partnership, India)
+- **Product domain**: superhospitality.in
+- **Corporate domain**: shuul.io
+- **Founder**: Vinay Punera — [LinkedIn](https://www.linkedin.com/in/vinaypunera/)
+- **Staff App**: [Google Play Store](https://play.google.com/store/apps/details?id=in.superhospitality.staffapp)
+- **Recognition**: DPIIT Startup India (Certificate No. DIPP270736, issued 2026-07-06)
+- **Community**: Razorpay Rize member
 
 ## Related
 
-- [SHUUL Technologies](https://shuul.io/): Parent company website.
-
-## Optional
-
-- [Sitemap](https://superhospitality.in/sitemap.xml): XML list of the public URLs on this site.
+- [SHUUL Technologies](https://shuul.io/): Parent company
+- [Sitemap](https://superhospitality.in/sitemap.xml): All public URLs
